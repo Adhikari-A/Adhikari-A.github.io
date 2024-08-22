@@ -2566,7 +2566,12 @@ input, select, textarea {
 		      fill: currentColor; /* Ensure the SVG takes the color of the surrounding text */
 		      opacity: 0.5; /* Match opacity with Font Awesome icons */
 		      filter: invert(100%); /* Invert the color */
+		      transition: opacity 0.3s ease; /* Smooth transition for opacity change */
 	}
+
+		      .custom-icon:hover {
+				    	  opacity: 1; /* Full opacity on hover */
+		      }
 
 
 /* Image */
