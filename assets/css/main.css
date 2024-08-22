@@ -2566,13 +2566,48 @@ input, select, textarea {
 		      fill: currentColor; /* Ensure the SVG takes the color of the surrounding text */
 		      opacity: 0.5; /* Match opacity with Font Awesome icons */
 		      filter: invert(100%); /* Invert the color */
-		      transition: opacity 0.3s ease; /* Smooth transition for opacity change */
+		      transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition for opacity change */
 	}
 
 		      .custom-icon:hover {
 				    	  opacity: 1; /* Full opacity on hover */
 		      }
 
+	/* Tooltip Styling */
+	.icons li {
+		   position: relative;
+	}
+
+		   .icons li .label {
+		   		     visibility: hidden;
+		   		     width: auto;
+		   		     background-color: rgba(0, 0, 0, 0.8); /* Background color of the tooltip */
+		   		     color: #ffffff; /* Text color */
+		   		     text-align: center;
+		   		     border-radius: 6px;
+		   		     padding: 5px 10px;
+		   		     position: absolute;
+		   		     z-index: 1;
+		   		     bottom: 125%; /* Position the tooltip above the icon */
+		   		     left: 50%;
+		   		     transform: translateX(-50%);
+		   		     opacity: 0;
+		   		     transition: opacity 0.3s ease-in-out;
+		   		     white-space: nowrap; /* Prevent text from wrapping */
+		   		     font-size: 0.8em;
+		   }
+
+		   /* Tooltip arrow */
+		   .icons li .label:after {
+		   			   content: '';
+		   			   position: absolute;
+		   			   top: 100%; /* Bottom of the tooltip */
+		   			   left: 50%;
+		   			   margin-left: -5px;
+		   			   border-width: 5px;
+		   			   border-style: solid;
+		   			   border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent; /* Arrow color matching the tooltip background */
+		   }
 
 /* Image */
 
@@ -2828,10 +2863,18 @@ input, select, textarea {
 		ul.icons li {
 			display: inline-block;
 			padding: 0 0.75em 0 0;
+			position: relative; /* Ensure tooltips are positioned relative to the icon */
 		}
 
 			ul.icons li:last-child {
 				padding-right: 0;
+			}
+			
+			/* Show the tooltip when hovering over the icon */
+			ul.icons li:hover .label {
+				display: block; /* Show label */
+				visibility: visible;
+				opacity: 1;
 			}
 
 			ul.icons li > a, ul.icons li > span {
