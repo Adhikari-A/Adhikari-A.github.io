@@ -2559,6 +2559,15 @@ input, select, textarea {
 					color: #953d75;
 				}
 
+	.custom-icon {
+		      width: 1em; /* Adjust width to match Font Awesome icons */
+		      height: 1em; /* Adjust height to match Font Awesome icons */
+		      vertical-align: middle; /* Align vertically with other icons */
+		      fill: currentColor; /* Ensure the SVG takes the color of the surrounding text */
+		      opacity: 0.75; /* Match opacity with Font Awesome icons */
+	}
+
+
 /* Image */
 
 	.image {
