@@ -37,7 +37,7 @@
 							<h1 class="major">Simulating neutron stars with Nmesh</h1>
 							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
 							-->
-							<p>
+							<p style="text-align: justify;">
 								The upcoming increasingly improved GW observatories demand
 								simulations with higher accuracy produced at greater speed.
 								Hence, a major current campaign in the numerical relativity
@@ -48,11 +48,51 @@
 								optimizing, and developing the treatment of matter fields in
 								Nmesh.
 							</p>
+
+							
 							<figure class="centered-figure">
 								<img src="../images/migration.gif" alt="Migrating NS GIF" >
-								<figcaption>Single unstable NS migrating to stable branch with DG+FV</figcaption>
+								<figcaption>Figure 1: Single unstable NS migrating to stable state with DG+FV</figcaption>
 							</figure>
 
+							<p style="text-align: justify; margin-bottom: 0;">
+								To achieve its goals of high scalability and accuracy,
+								Nmesh utilizes the discontinuous Galerkin (DG) evolution sceheme
+								in conjunction with the finite volume (FV) and finite difference
+								(FD) schemes as necessary. My research focuses on optimizing
+								the evolution of neutron stars (NSs) under this setup.
+								Towards that goal, I first started with shock tube tests,
+								as hydrodynamic schocks develop during the late phase of
+								binary neutron star (BNS) inspirals. As any new program,
+								Nmesh needs to be tested with for aqccuracy and robustness.
+								Once this was achieved,
+								I moved on to single NS simulations with four cases:
+							</p>
+							<ol style="list-style-type: lower-alpha; margin-left: 30px; margin-bottom: 0; margin-top: 0;">
+                                      				<li>a stable single NS,</li>
+                                      				<li>a perturbed single NS</li>
+                                      				<li>a highly dense unstable single NS that migrates towards a stable state, and</li>
+								<li>a boosted single NS.</li>
+                              				</ol>
+                              				<p style="text-align: justify;">
+								Cases (a) tests for stability and robustness, while the rest
+								of the cases explore Nmesh's ability to handle more dynamic
+								behavior. Cases (a) and (b) were achived through pure DG, while
+								a hybrid DG+FV scheme was necessary for cases (c) and (d),
+								where we seitch to FV in certain regions basec on some list of
+								criteria. The density behavior for these two later cases can be seen
+								in Figures 1 and 2. Currently I am wroking on optimizing the
+								criteria for selective switching between FV and DG. We have also
+								started exploring BNS simulations
+							</p>
+							<figure class="centered-figure">
+								<img src="../images/boosted.gif" alt="Boosted NS GIF" >
+								<figcaption>Figure 1: Single boosted NS with DG+FV</figcaption>
+							</figure>
+							<p>
+								Related publication:
+								Related presentations:
+							</p>
 						</div>
 					</section>
 
