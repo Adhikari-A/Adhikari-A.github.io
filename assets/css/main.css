@@ -2220,6 +2220,29 @@ input, select, textarea {
 
 		}
 
+/* Figure */
+
+	.centered-figure {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		<!-- margin: 20px auto; --> /* Centers the figure and adds vertical margin */
+	}
+
+		.centered-figure img {
+			max-width: 100%; /* Ensures the image is responsive */
+			height: auto;
+		}
+
+		.centered-figure figcaption {
+			font-style: italic;
+			<!-- color: #555;
+			margin-top: 10px; -->
+		}
+
+
 /* Form */
 
 	form {
