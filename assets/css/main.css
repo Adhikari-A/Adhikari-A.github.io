@@ -3398,9 +3398,17 @@ input, select, textarea {
 			background-color: #dea32c; /* #bf840d; */
 		}
 		
-
-		.wrapper.style3 {
+		<!-- original style3 colors -->
+		<!-- .wrapper.style3 {
 			background-color: #b74e91;
+		}
+
+		.wrapper.style3-alt {
+			background-color: #953d75;
+		} -->
+		
+		.wrapper.style3 {
+			background-color: #79e340;
 		}
 
 		.wrapper.style3-alt {
