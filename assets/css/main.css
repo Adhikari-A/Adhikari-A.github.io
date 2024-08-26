@@ -1917,7 +1917,9 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			<!-- original color -->
+			<!-- color: #312450 !important; -->
+			color: #1b1e24 !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2381,7 +2383,9 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #312450;
+			<!-- original color -->
+			<!-- background: #312450; -->
+			background: #1b1e24;
 		}
 
 		select:focus::-ms-value {
@@ -2550,7 +2554,9 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			<!-- original color -->
+			<!-- color: #312450; -->
+			color: #1b1e24;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2604,7 +2610,9 @@ input, select, textarea {
 					  display: block;
 					  background: none; /* #ffffff; */
 					  border-radius: 100%;
-					  color: #312450;
+					  <!-- original color -->
+					  <!-- color: #312450; -->
+					  color: #1b1e24;
 					  text-align: center;
 					  line-height: 2.5em;
 					  margin: 0 0 1.3em 0;
