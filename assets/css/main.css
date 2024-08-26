@@ -3390,7 +3390,8 @@ input, select, textarea {
 		}-->
 
 		.wrapper.style2 {
-			background-color: #db970f;
+		        /* darkness: #f5b22c < #db970f */
+			background-color: #f5b22c;
 		}
 
 		.wrapper.style2-alt {
