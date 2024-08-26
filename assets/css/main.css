@@ -2588,7 +2588,7 @@ input, select, textarea {
 		      vertical-align: middle; /* Align vertically with other icons */
 		      fill: currentColor; /* Ensure the SVG takes the color of the surrounding text */
 		      opacity: 0.5; /* Match opacity with Font Awesome icons */
-		      filter: invert(100%); /* Invert the color */
+		      <!-- filter: invert(100%); --> /* Invert the color */
 		      transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition for opacity change */
 	}
 
