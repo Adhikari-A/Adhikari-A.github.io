@@ -2576,7 +2576,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #f5b22c; /* #5052b5; */
+					color: #8f7650; /* #f5b22c; */ /* #5052b5; */
 				}
 
 				.wrapper.style2-alt .icon.major:before {
@@ -2633,7 +2633,7 @@ input, select, textarea {
 					}
 
 					.wrapper.style2 .custom-icon.major:before {
-						color: #f5b22c; /* #5052b5; */
+						color: #8f7650; /* #f5b22c; */ /* #5052b5; */
 					}
 
 					.wrapper.style2-alt .custom-icon.major:before {
@@ -3372,7 +3372,7 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #211f26; /* original: #261c3e; */
 		}
 
 		/* original style1 colors */
@@ -3406,12 +3406,12 @@ input, select, textarea {
 		        /* yellow series -> darkness: #f5b22c < #db970f */
 		        /* turqioise/teal series -> darkness: #1D8D84 */
 		        /* blue series -> darkness: #003060 */
-		        /* beige series -> darkness: #D5BA90 < #AC8E60 < #8f7650 #7a6443 , #916727 */
+		        /* beige series -> darkness: #D5BA90 < #AC8E60 < #8f7650 < #7a6443 , #916727 */
 			background-color: #8f7650;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #dea32c; /* #bf840d; */
+			background-color: #7a6443; /* #dea32c; */ /* #bf840d; */
 		}
 		
 		/* original style3 colors */
@@ -3430,7 +3430,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #1e2113; /* #953d75; */
 		}
 
 		.wrapper.fullscreen {
