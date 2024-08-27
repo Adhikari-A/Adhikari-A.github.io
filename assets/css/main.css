@@ -3401,8 +3401,8 @@ input, select, textarea {
 
 		.wrapper.style2 {
 		        /* yellow series -> darkness: #f5b22c < #db970f */
-		        /* turqioise/teal series -> #1D8D84 */
-		        /* blue series -> */
+		        /* turqioise/teal series -> darkness: #1D8D84 */
+		        /* blue series -> darkness: #003060 */
 			background-color: #003060;
 		}
 
@@ -3421,7 +3421,8 @@ input, select, textarea {
 		
 		.wrapper.style3 {
 			/* green series -> darkness: #79e340 < #53b320 */
-			background-color: #53b320;
+			/* olive series -> darkness: #343920 */
+			background-color: #343920;
 		}
 
 		.wrapper.style3-alt {
