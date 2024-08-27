@@ -3403,7 +3403,8 @@ input, select, textarea {
 		        /* yellow series -> darkness: #f5b22c < #db970f */
 		        /* turqioise/teal series -> darkness: #1D8D84 */
 		        /* blue series -> darkness: #003060 */
-			background-color: #003060;
+		        /* beige series -> darkness: #D5BA90 */
+			background-color: #D5BA90;
 		}
 
 		.wrapper.style2-alt {
