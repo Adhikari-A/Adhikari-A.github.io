@@ -3401,8 +3401,9 @@ input, select, textarea {
 
 		.wrapper.style2 {
 		        /* yellow series -> darkness: #f5b22c < #db970f */
-		        /* turquish/teal series -> #1D8D84 */
-			background-color: #1D8D84;
+		        /* turqioise/teal series -> #1D8D84 */
+		        /* blue series -> */
+			background-color: #003060;
 		}
 
 		.wrapper.style2-alt {
