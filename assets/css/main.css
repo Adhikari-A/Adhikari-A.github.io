@@ -3382,7 +3382,7 @@ input, select, textarea {
 		} */
 		
 		.wrapper.style1 {
-                        /* darkness: #403c4a < #28262e <  #211f26 <  #16141c */
+                        /* gray series -> darkness: #403c4a < #28262e <  #211f26 <  #16141c */
                         background-color: #28262e; 
                 }
 
@@ -3400,8 +3400,9 @@ input, select, textarea {
 		}*/
 
 		.wrapper.style2 {
-		        /* darkness: #f5b22c < #db970f */
-			background-color: #f5b22c;
+		        /* yellow series -> darkness: #f5b22c < #db970f */
+		        /* turquish/teal series -> #1D8D84 */
+			background-color: #1D8D84;
 		}
 
 		.wrapper.style2-alt {
@@ -3418,7 +3419,7 @@ input, select, textarea {
 		} */
 		
 		.wrapper.style3 {
-			/* darkness: #79e340 < #53b320 */
+			/* green series -> darkness: #79e340 < #53b320 */
 			background-color: #53b320;
 		}
 
