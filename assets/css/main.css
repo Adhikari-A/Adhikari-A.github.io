@@ -71,6 +71,16 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* make footer stick to the bottom */
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 /* Basic */
 
 	@-ms-viewport {
@@ -3339,6 +3349,9 @@ input, select, textarea {
 
 	.wrapper {
 		position: relative;
+		flex: 1;
+		display: flex;
+		flex-direction: column;
 	}
 
 		.wrapper > .inner {
@@ -3532,6 +3545,12 @@ input, select, textarea {
 		body.is-preload .wrapper.fade > .inner {
 			opacity: 0;
 		}
+
+/* main */
+
+	#main {
+		flex: 1; /* This makes the main content take up the available space */
+	}
 
 /* Header */
 
