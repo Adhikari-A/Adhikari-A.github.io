@@ -81,7 +81,11 @@ input, select, textarea {
     flex-direction: column; */
 /*}*/
 
-
+body, #main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
 
 /* Basic */
 
@@ -3561,7 +3565,9 @@ input, select, textarea {
 	#main {
 		padding-bottom: 10em; /* Adjust based on the height of the footer */
 		/* the following made the footer sticky but very long */
-		/* flex: 1; */ /* This makes the main content take up the available space */
+		flex: 1;  /* This makes the main content take up the available space */
+		display: flex;
+		flex-direction: column;
 	}
 
 /* Header */
