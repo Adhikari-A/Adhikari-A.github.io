@@ -73,7 +73,7 @@ input, select, textarea {
 
 /* make body flex box and main part grow for sticky footer */
 
-body {
+/* body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
@@ -81,7 +81,7 @@ body {
 
 main {
 	flex-grow: 1;
-}
+}*/
 
 /* Basic */
 
@@ -4091,3 +4091,15 @@ main {
 			}
 
 		}
+
+/* make body flex box and main part grow for sticky footer */
+
+body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+}
+
+main {
+        flex-grow: 1;
+}
