@@ -72,11 +72,11 @@ input, select, textarea {
 }
 
 /* make body a vertical flexbox */
-body {
+/* body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-}
+} */
 
 /* Basic */
 
@@ -3667,7 +3667,12 @@ body {
 	}
 	
 	#wrapper {
-		flex-grow: 1; /* make content inside wrapper span entire vertical extent of viewport 
+		/* turn wrapper area into a vertical flexbox */
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+		/* make content inside wrapper span entire vertical extent of viewport */
+		flex-grow: 1;
 	}
 
 /* Footer */
