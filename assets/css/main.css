@@ -71,6 +71,13 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* make body a vertical flexbox */
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -3657,6 +3664,10 @@ input, select, textarea {
 
 	#header + #wrapper > .wrapper > .inner {
 		margin: 0 auto;
+	}
+	
+	#wrapper {
+		flex-grow: 1; /* make content inside wrapper span entire vertical extent of viewport 
 	}
 
 /* Footer */
