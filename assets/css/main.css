@@ -3550,11 +3550,11 @@ html, body {
 		}
 
 	/* wrapper for sticky footer */
-/*	#wrapper {
+	#wrapper {
 		min-height: 100%;
 		position: relative;
-		padding-bottom: 4em;*/ /* Adjust based on the height of the footer */
-/*	}*/
+		padding-bottom: 10em;*/ /* Adjust based on the height of the footer */
+	}
 
 /* main */
 
