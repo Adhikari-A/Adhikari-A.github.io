@@ -73,13 +73,13 @@ input, select, textarea {
 
 /* make footer stick to the bottom */
 
-html, body {
+/*html, body {
     height: 100%;
-    margin: 0;
+    margin: 0; */
     /* the following made the footer stick, but very long */
     /* display: flex;
     flex-direction: column; */
-}
+/*}*/
 
 
 
