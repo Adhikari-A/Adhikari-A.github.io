@@ -3949,7 +3949,7 @@ main {
 			}
 
 			#sidebar nav a:before {
-				background: #343920; /* original: #3c2c62; */
+				background: #1e2113; /* lighter oliver: #343920; */ /* original: #3c2c62; */
 			}
 
 			#sidebar nav a:after {
