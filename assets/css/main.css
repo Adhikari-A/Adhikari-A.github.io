@@ -109,7 +109,7 @@ main {
 		/* background: #312450; */
 		/* dark gray: #1b1e24 */
 		/* brick red: 722720 */
-		background: #414d12;
+		background: #142a43;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -126,7 +126,7 @@ main {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: rgba(255, 255, 255, 0.8); /* 0.55); */
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -162,14 +162,14 @@ main {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
-		color: inherit;
+		/* border-bottom: dotted 1px rgba(255, 255, 255, 0.35); */
+		color: #ed9a35; /*inherit;*/
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff;
+			color: #df3434;
 		}
 
 	strong, b {
@@ -2608,7 +2608,7 @@ main {
 		      height: 1em; /* Adjust height to match Font Awesome icons */
 		      vertical-align: middle; /* Align vertically with other icons */
 		      fill: currentColor; /* Ensure the SVG takes the color of the surrounding text */
-		      opacity: 0.5; /* Match opacity with Font Awesome icons */
+		      /* opacity: 0.5; Match opacity with Font Awesome icons */
 		      /* filter: invert(100%); */ /* Invert the color */
 		      transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition for opacity change */
 	}
