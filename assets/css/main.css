@@ -4107,3 +4107,10 @@ main {
 			}
 
 		}
+
+/* adjust video width properly */
+.textwidth-video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
